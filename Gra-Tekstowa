@@ -1,0 +1,197 @@
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+#include <windows.h>
+#include <fstream>
+#include <cstdlib>
+#include <conio.h>
+#include <string>
+#include <vector>
+
+int a,b,c,d,x,i;
+
+
+using namespace std;
+
+int main()
+
+{
+    cout << "Wcisnij (1) aby rozpoczac gre" << endl;
+    cout << "Wcisnij (2) aby zakonczyc gre" << endl;
+    cin >> x;
+    if (x==1)
+    {
+
+
+
+                    system ("cls");
+
+
+
+                            a=1;
+                            b=1;
+                            c=1;
+                            d=1;
+                            cout << "poziom........"  <<a<< endl;
+                            Sleep( 400 );
+                            cout << "sila.........."  <<b<< endl;
+                            Sleep( 400 );
+                            cout << "szybkosc......"  <<c<< endl;
+                            Sleep( 400 );
+                            cout << "inteligencja.."  <<d<< endl;
+                            Sleep( 400 );
+                            cout << "ekwipunek:"         << endl<< endl<< endl;
+                            Sleep( 1000 );
+
+
+                                    string napis = "Budzi cie karczmarz";
+
+                                        for (int i = 0; i < 19; i++)
+                                        {
+                                            cout << napis[i];
+                                            Sleep(60);
+                                        }
+                                         cout << endl;
+                                         Sleep( 1000 );
+
+
+                                    napis = "Rozgladasz sie, jestes na rogu za karczmy...chyba chce cie stamtad wyrzucic";
+
+                                        for (int i = 0; i < 75; i++)
+                                        {
+                                            cout << napis[i];
+                                            Sleep(60);
+                                        }
+                                         cout << endl;
+                                         Sleep( 1000 );
+
+                                    napis = "Wczoraj probowales zjesc troche resztek ktore wyrzucal";
+
+                                        for (int i = 0; i < 54; i++)
+                                        {
+                                            cout << napis[i];
+                                            Sleep(60);
+                                        }
+                                         cout << endl;
+                                         Sleep( 1000 );
+
+                                    napis = "idzesz na ulice";
+
+                                        for (int i = 0; i < 15; i++)
+                                        {
+                                            cout << napis[i];
+                                            Sleep(60);
+                                        }
+                                         cout << endl;
+                                         Sleep( 1000 );
+
+                                    napis = "zauwazasz jakis ludzi ktorzy biegna";
+
+                                        for (int i = 0; i < 35; i++)
+                                        {
+                                            cout << napis[i];
+                                            Sleep(60);
+                                        }
+                                         cout << endl;
+                                         Sleep( 1000 );
+
+                                    napis = "sa uzbrojeni";
+                                        for (int i = 0; i < 12; i++)
+                                        {
+                                            cout << napis[i];
+                                            Sleep(60);
+                                        }
+                                         cout << endl;
+                                         Sleep( 1000 );
+
+                                    napis = "biegniesz";
+                                        for (int i = 0; i < 9; i++)
+                                        {
+                                            cout << napis[i];
+                                            Sleep(60);
+                                        }
+                                         cout << endl<<endl;
+                                         Sleep( 3000 );
+
+
+
+                                    napis = "co robisz?";
+                                        for (int i = 0; i < 10; i++)
+                                        {
+                                            cout << napis[i];
+                                            Sleep(60);
+                                        }
+                                         cout << endl;
+
+                                        Sleep( 350 );
+                                        cout << "opcja (1)" << endl;
+                                        Sleep( 350 );
+                                        cout << "opcja (2)" << endl;
+                                        cin >> i;
+                                        if (i=2)
+                                        {
+                                                Sleep( 1000 );
+                                                system ("cls");
+
+                                                cout << "poziom........"  <<a<< endl;
+                                                cout << "sila.........."  <<b<< endl;
+                                                cout << "szybkosc......"  <<c<< endl;
+                                                cout << "inteligencja.."  <<d<< endl;
+                                                cout << "ekwipunek:"         << endl<< endl<< endl;
+
+                                                            napis = "Wyruszasz an wyprawe";
+
+                                                                for (int i = 0; i < 20; i++)
+                                                                {
+                                                                    cout << napis[i];
+                                                                    Sleep(60);
+                                                                }
+                                                                cout << endl;
+                                                                Sleep(3000);
+
+                                                                cout << "(tutaj bedzie wstep fabularny)"<<endl; //wstep
+                                                                Sleep(3000);
+
+                                                            napis = "Walka!";
+
+                                                                for (int i = 0; i < 6; i++)
+                                                                {
+                                                                    cout << napis[i];
+                                                                    Sleep(60);
+                                                                }
+                                                                cout << endl;
+                                                                cout << "Wygrales walke - (tutaj bedzie walka)"<<endl; //mechanika walki
+                                                                Sleep(3000);
+                                                                cout << "(tutaj wchodzimy do miasta - lobby)"<<endl; //lobby,kupujemy przedmioty, rozmawiamy z ludzmi itd
+
+                                        }
+                                        else
+                                        {
+                                            napis = "Przegra³eœ";
+
+                                            for (int i = 0; i < 10; i++)
+                                            {
+                                                cout << napis[i];
+                                                Sleep(60);
+                                            }
+                                            cout << endl;
+
+                                            Sleep( 5000 );
+                                            return 0;
+                                        }
+
+                                        Sleep( 62000 );
+                    return 0;
+      }
+else
+{
+                                            system ("cls");
+                                            return 0;
+
+}
+return 0;
+}
+
+
+
+
